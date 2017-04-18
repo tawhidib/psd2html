@@ -1,0 +1,39 @@
+@media all and (max-width: 990px) {
+	.toparea{
+	width: 100%;
+	margin: 0;
+	padding-top: 0;
+	}
+	
+	.toparea .logo{
+		float: none;
+		padding-left: 10px;
+	}
+	
+	.toparea .login{
+		float: none;
+		padding-left: 10px;
+	}
+	
+	.middle .middlearea .imgside{
+		float: none;
+		padding-left: 10px;
+	}
+	
+	.middle .middlearea .signupside{
+		float: none;
+		padding-left: 10px;
+	}
+	
+	.login table td{
+		padding: 0;
+	}
+	
+	.bottom{
+		display: none;
+	}
+	
+	.imagside{
+		width: 80%;
+	}
+}
