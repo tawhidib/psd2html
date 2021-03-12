@@ -1,0 +1,233 @@
+body {
+	font-family: 'Lato', sans-serif;
+}
+
+.header-area{
+	height: 800px;
+	background: url("images/header-bg.jpg") no-repeat 0 0 / 100% 100%;
+	padding: 30px 0;
+	color: #4d4959;
+}
+.header-area .menu-area ul li {
+	padding: 0 35px;
+}
+.header-area .menu-area ul li a {
+	color: #4d4959;
+	font-size: 13px;
+	letter-spacing: 2px;
+	font-weight: 900;
+}
+.vintage-bike-area {
+	padding: 120px 0;
+	background-color: #F7F7F7;
+}
+.vintage-bike-area h3 {
+	font-weight: 700;
+	font-size: 18px;
+	color: #353738;
+	padding: 20px;
+}
+.vintage-bike-area p {
+	color: #848789;
+	font-size: 18px;
+	margin: auto;
+	width: 95%;
+	line-height: 2em;
+}
+.vintage-oliva-area {
+	height: 600px;
+}
+.vintage-oliva-area .col-md-8 {
+	padding: 0;
+}
+.vintage-oliva-area .col-md-4 {
+	padding: 0;
+}
+.vintage-oliva-sm-content {
+	margin: 50px 0;
+	height: 300px;
+}
+.vintage-oliva-sm-content h3 {
+	color: #353738;
+	font-size: 18px;
+	margin: 30px 0;
+	font-weight: 900;
+}
+.vintage-oliva-sm-content p {
+	width: 80%;
+	margin: auto;
+	margin-bottom: 50px;
+	color: #848789;
+	font-size: 16px;
+	line-height: 2em;
+}
+.vintage-oliva-sm-content hr {
+	width: 10%;
+	margin: auto;
+	border: 1px solid #d7d7d7;
+}
+.vintage-oliva-icon-area {
+	margin-top: 50px;
+}
+.vintage-oliva-area .vintage-oliva-lg-area img {
+	width: 100%;
+	height: auto;
+	max-height: 600px;
+}
+.vintage-oliva-area .vintage-oliva-sm-image img {
+	width: 100%;
+	height: 200px;
+}
+
+.retro-bike-area {
+	height: 600px;
+}
+.retro-bike-area .col-md-4 {
+	padding: 0;
+}
+.retro-bike-area .retro-bike-left img {
+	width: 100%;
+	height: 600px;
+}
+.retro-bike-area .retro-bike-right img {
+	width: 100%;
+	height: 600px;
+}
+.retro-bike-middle .vintage-oliva-sm-image img {
+	width: 100%;
+	height: 200px;
+}
+
+
+.social-area {
+	padding: 150px 0;
+	background: #F7F7F7;
+}
+.social-area .social-icon a {
+	font-size: 40px;
+	color: #56C7EF;
+}
+.social-area .social-icon a:hover {
+	color: #51747B;
+}
+.social-area h3 {
+	font-size: 18px;
+	font-weight: 900;
+	letter-spacing: 3px;
+	margin: 30px 0;
+}
+.social-area h3 span {
+	color: #848789;
+	font-weight: 400;
+}
+.social-area p {
+	font-size: 24px;
+	font-style: italic;
+	color: #848789;
+}
+
+.gallery-area .photos-area {
+	height: 600px;
+	overflow: hidden;
+}
+.gallery-area .col-md-4,
+.gallery-area .col-md-6,
+.gallery-area .col-md-12 {
+	padding: 0;
+}
+.gallery-area .photos-area img {
+	width: 100%;
+}
+.discover-shop-area {
+	padding: 100px;
+	background: #282F35;
+}
+.discover-shop-area a {
+	padding: 15px 50px;
+	border:  1px solid #93979A;
+	color: #ffffff;
+	font-size: 14px;
+	font-weight: 900;
+	letter-spacing: 3px;
+	transition-duration: .5s;
+}
+.discover-shop-area a:hover {
+	color: #282F35;
+	border: 1px solid #93979A;
+	background: #ffffff;
+	text-decoration: none;
+}
+
+
+.email-area {
+	padding: 100px;
+}
+.email-area h3 {
+	font-size: 24px;
+	color: #848789;
+	font-style: italic;
+	font-weight: 700;
+	letter-spacing: 3px;
+	padding: 20px 0;
+}
+.input-email .form-control{
+	font-size: 20px;
+	padding: 15px 30px;
+	display: inline-block;
+	width: 400px;
+	height: 70px;
+	border-radius: 0;
+	margin-right: 5px;
+	color: #848789;
+	font-style: italic;
+}
+.input-email .btn {
+	background: #64C29E;
+	font-size: 20px;
+	padding: 15px 30px;
+	height: 70px;
+	border-radius: 0;
+	border: 1px solid transparent;
+	color: #ffffff;
+	font-style: italic;
+	transition-duration: .5s;
+}
+.input-email .btn:hover {
+	color: #848789;
+	border: 1px solid #64C29E;
+	background: #ffffff;
+	font-weight: 400;
+}
+
+.footer-area {
+	background: #F7F7F7;
+	padding: 80px 0;
+	color: #848789;
+}
+.footer-area .left-side strong {
+	font-size: 16px;
+}
+.footer-area .middle-side ul li {
+	margin: 10px;
+}
+.footer-area .middle-side ul li a {
+	color: #ffffff;
+	font-size: 20px;
+	padding: 10px;
+	border-radius: 50%;
+}
+.footer-area .middle-side ul li .first {
+	background: #7ACDEF;
+}
+.footer-area .middle-side ul li .second {
+	background: #537CBC;
+}
+.footer-area .middle-side ul li .third {
+	background: #EB5755;
+}
+.footer-area .right-side p {
+	font-style: italic;
+}
+.footer-area .right-side p a {
+	margin-left: 10px;
+}
